@@ -1,0 +1,93 @@
+<!-- Bootstrap carousel -->
+<div id="demo" class="carousel slide" data-ride="carousel" data-interval="5000">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo-li" data-slide-to="0" class="active"></li>
+    <li data-target="#demo-li" data-slide-to="1"></li>
+    <li data-target="#demo-li" data-slide-to="2"></li>
+  </ul>
+
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="assets/img/slider/1.jpg" alt="Los Angeles">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/img/slider/2.jpg" alt="Chicago">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/img/slider/3.jpg" alt="New York">
+    </div>
+  </div>
+
+  <!-- Left and right controls
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>  -->
+
+</div>
+
+
+<!-- Home Division 1 -->
+<div class="home-div1">
+  <!-- Announcements -->
+  <div class="card annoucements" id="style-2">
+    <div class="force-overflow">
+      <div class="card-body">
+        <h5 class="card-title">Announcements
+          <span id='announcement-link'>
+            <a href="#" class="more-viewall-link">View All</a></span></h5>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Admissions for 2019-20 are open<a href="#" class="card-link"> click</a></li>
+          <li class="list-group-item">School transport is extended to North Chennai. Contact us for more details</li>
+          <li class="list-group-item">Check programs and events section for upcoming events</li>
+        </ul>
+
+      </div>
+
+    </div>
+  </div>
+
+  <div class="facilities">
+    <div class="facilities-header">
+
+      <p>Facilities</p>
+
+    </div>
+
+    <div class="facilities-body">
+      <div class="facilities-body-text">
+        <p> We offer the latest and innovative facilities for overall development of the students</p>
+        <a href="#" class="more-viewall-link">More</a>
+      </div>
+      <div class="facilities-body-carousel">
+        <div id="custom-carousel" class="carousel slide facilities-carousel" data-ride="carousel" data-interval="3000">
+
+          <!-- The slideshow -->
+          <div class="carousel-inner favourites-carousel-inner">
+            <div class="carousel-item active facilities-carousel-item">
+              <img src="assets/img/slider/4.jpg" alt="Los Angeles">
+            </div>
+            <div class="carousel-item facilities-carousel-item">
+              <img src="assets/img/slider/5.jpg" alt="Chicago">
+            </div>
+            <div class="carousel-item facilities-carousel-item">
+              <img src="assets/img/slider/6.jpg" alt="New York">
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Flexible widget -->
+<app-flexwidget></app-flexwidget>
+
+<!-- Fixed widget -->
+<app-fixedwidget></app-fixedwidget>

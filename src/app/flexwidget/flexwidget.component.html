@@ -1,0 +1,30 @@
+<!-- Home Division 2 -->
+
+<div class="div2-flex-widget">
+    <nav>
+      <div class="nav nav-pills flex-column flex-sm-row" id="nav-tab" role="tablist">
+        <a class="heading1 flex-sm-fill text-sm-center nav-item nav-link active" id="nav-team-tab" data-toggle="tab" href="#nav-team" role="tab" aria-controls="nav-team" aria-selected="true">Team</a>
+        <span id="subPipe">|</span>
+        <a class="heading3 flex-sm-fill text-sm-center nav-item nav-link" id="nav-happenings-tab" data-toggle="tab" href="#nav-happenings" role="tab" aria-controls="nav-happenings" aria-selected="false">Happenings</a>
+        <span id="subPipe">|</span>
+        <a class="heading5 flex-sm-fill text-sm-center nav-item nav-link" id="nav-achievements-tab" data-toggle="tab" href="#nav-achievements" role="tab" aria-controls="nav-achievements" aria-selected="false">Achievements</a>
+        <span id="subPipe">|</span>
+        <a class="heading4 flex-sm-fill text-sm-center nav-item nav-link" id="nav-gallery-tab" data-toggle="tab" href="#nav-gallery" role="tab" aria-controls="nav-gallery" aria-selected="false">Gallery</a>
+      </div>
+    </nav>
+    <div class="tab-content" id="nav-tabContent">
+      <div class="tab-pane fade show active" id="nav-team" role="tabpanel" aria-labelledby="nav-team-tab">
+        <app-team></app-team>
+      </div>
+      <div class="tab-pane fade" id="nav-happenings" role="tabpanel" aria-labelledby="nav-happenings-tab">
+        <app-happenings></app-happenings>
+        </div>
+      <div class="tab-pane fade" id="nav-achievements" role="tabpanel" aria-labelledby="nav-achievements-tab">
+        <app-achievements></app-achievements>
+      </div>
+      <div class="tab-pane fade" id="nav-gallery" role="tabpanel" aria-labelledby="nav-gallery-tab">
+          <app-gallery></app-gallery>
+        </div>
+    </div>
+
+  </div>

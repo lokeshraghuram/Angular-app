@@ -1,0 +1,47 @@
+.team-div {
+  padding-top: 5px;
+  padding-left: 10px;
+  display: block;
+  width: 100%;
+  height: 200px;
+
+}
+
+.team-left {
+  float: left;
+  position: relative;
+  width: 20%;
+  height : 200px;
+}
+
+
+.team-left img{
+  position: absolute;
+  top: 15%;
+  left: 5%;
+  width: 60%;
+  border-radius: 50%;
+  border: 1px solid #0090a2;
+}
+
+.team-right{
+  display: inline-block;
+  position: relative;
+  width: 80%;
+  height : 200px;
+  overflow: auto;
+}
+
+
+.team-right .team-right-content{
+  position: absolute;
+  padding-right: 5px;
+  top: 50%;
+  transform: translate(0, -50%)
+}
+
+.team-right .team-right-content h6 span{
+  border-bottom-color: #0090a2;
+  border-bottom-width: 2px;
+  border-bottom-style: ridge;
+}

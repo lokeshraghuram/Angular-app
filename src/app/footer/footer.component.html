@@ -1,0 +1,64 @@
+<!-- Footer -->
+<div class="common-footer">
+  <div class="footer-block-left">
+    <div class="subscription">
+      <p>
+        Enter your email address to subscribe and receive notifications by
+        email.
+      </p>
+      <form [formGroup]="subscribeForm">
+        <label>
+            Email:
+            <input type="email" formControlName="email">
+          </label>
+        <p></p>
+        <button type="submit" [disabled]="!subscribeForm.valid">Submit</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="footer-block-center">
+    <div class="logo-center">
+      <img src="/assets/img/logo/logo.png" alt="" />
+    </div>
+  </div>
+
+  <div class="footer-block-right">
+    <div class="contact">
+      <ul>
+        <li class="addresslinewicon">
+          <span>
+            <mat-icon class="addressicons">home</mat-icon>
+          </span>
+          <span>&nbsp;&nbsp;</span> Little Angels School
+        </li>
+        <li class="addresslinewoicon">
+          <span>&nbsp;&nbsp;</span> Vadapalani Main Road,
+        </li>
+        <li class="addresslinewoicon">
+          <span>&nbsp;&nbsp;</span> Vadapalani,
+        </li>
+        <li class="addresslinewoicon">
+          <span>&nbsp;&nbsp;</span> Chennai – 600 026.
+        </li>
+        <li class="addresslinewicon">
+          <span>
+            <mat-icon class="addressicons">phone</mat-icon>
+          </span>
+          <span>&nbsp;&nbsp;</span> 8939414345
+        </li>
+        <br />
+        <li>
+          <span>
+            <mat-icon class="addressicons">email</mat-icon>
+          </span>
+          <span>&nbsp;&nbsp;</span> admissions@littleangels.edu.in
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="copyright">
+  <p>© Little Angels Software Team</p>
+</div>

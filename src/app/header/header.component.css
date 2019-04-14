@@ -1,0 +1,123 @@
+.pb-main
+{
+  background-color: #f0f6f7;
+  border-bottom-width: 4px;
+  border-bottom-color: #395592;
+  border-bottom-style: solid;
+}
+
+.pb-menu-default
+{
+	float:right;
+  display:block;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+
+.pb-menu-default>.sf-menu>.sf-mega-enable-0 a span>.material-icons{
+  font-size: 24px;
+}
+
+.menuicons{
+  float: left;
+}
+
+.pb-menu-default>.sf-menu,
+{
+	margin:0px;
+	padding:0px;
+  list-style:none;
+}
+
+.pb-menu-default>.sf-menu>li>a
+{
+	min-width:100px;
+	box-sizing:border-box;
+  padding:25px 10px 25px 10px;
+  text-decoration:none;
+  color:#56509F;
+  border-radius: 6px;
+  background-color:#f0f6f7;
+}
+
+.pb-menu-default>.sf-menu>li:hover>a
+{
+  color:#ffffff;
+  background-color:#395592;
+}
+
+/* overrides the styles in ".pb-menu-default>.sf-menu>li>a"
+active-menu-item class is added to anchor tags through routerlinkactive directive */
+.pb-menu-default>.sf-menu>li>a.active-menu-item{
+  color:#ffffff !important;
+  background-color:#395592 !important;
+}
+
+
+.pb-menu-default>.sf-menu,
+.pb-menu-default>.sf-menu>li
+{
+  position:static;
+  display: inline-block;
+}
+
+
+.pb-menu-default>.sf-menu li.sf-mega-enable-0 a
+{
+	display:block;
+  position:relative;
+}
+
+
+ul.pb-reset-list
+{
+	margin:0px;
+	padding:0px;
+	list-style-type:none;
+}
+
+ul.pb-reset-list>li
+{
+	margin:0px;
+	padding:0px;
+	background-image:none;
+	background-repeat:no-repeat;
+	background-position:0px 0px;
+}
+
+/******************************************************************************/
+/* Logo																		  */
+/******************************************************************************/
+
+.pb-logo
+{
+  float:left;
+  margin-top: 1%;
+  padding-left: 2.5%;
+}
+
+	.pb-logo a,
+	.pb-logo img
+	{
+		display:block;
+		width: 100%;
+  }
+
+/******************************************************************************/
+/* RTL																		  */
+/******************************************************************************/
+
+body.rtl .pb-menu-default>.sf-menu>li
+{
+	float:right;
+}
+
+body.rtl .pb-logo
+{
+	float:right;
+}
+
+body.rtl .pb-menu-default
+{
+	float:left;
+}

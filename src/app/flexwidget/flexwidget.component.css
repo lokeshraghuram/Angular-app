@@ -1,0 +1,61 @@
+/******** Division 2 **********/
+.home-div2{
+  background-color: #faf3f0;
+  margin-bottom: 5px;
+}
+
+.div2-flex-widget{
+  width:85%;
+  float: left;
+
+  border-radius: 6px;
+  margin-bottom: 5px;
+  background-color: #ffffff;
+  box-shadow: 1px 3px rgba(0, 0, 0, 0.349);
+}
+
+.nav-pills .nav-link.active{
+    background-color: #99d6ff;
+    color : #000000;
+}
+
+.nav-item {
+  color: #000000;
+}
+
+.heading1 {
+  border-bottom: 3px solid #0090a2;
+  padding-bottom: 1px;
+  padding-top: 2px;
+}
+
+.heading2 {
+  border-bottom: 3px solid #9d54b1;
+  padding-bottom: 1px;
+  padding-top: 2px;
+}
+
+.heading3 {
+  border-bottom: 3px solid #ff9100;
+  padding-bottom: 1px;
+  padding-top: 2px;
+}
+
+.heading4 {
+  border-bottom: 3px solid #66b650;
+    padding-bottom: 1px;
+    padding-top: 2px;
+}
+
+.heading5 {
+  border-bottom: 3px solid #ea6a64;
+    padding-bottom: 1px;
+    padding-top: 2px;
+}
+
+
+#subPipe{
+  font-size:24px;
+}
+
+/************************************/

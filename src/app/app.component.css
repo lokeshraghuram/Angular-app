@@ -1,0 +1,31 @@
+/******************************************************************************/
+/* Default styles															  */
+/******************************************************************************/
+
+body
+{
+  background-color: #eef3f6;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.masterdiv
+{
+  width:90%;
+
+	margin-left:auto;
+  margin-right:auto;
+  display: block;
+  margin-top: 0px;
+}
+
+
+.masterdiv .pb-clear-fix:after
+{
+	height:0;
+	clear:both;
+	content:" ";
+	font-size:0;
+	display:block;
+  visibility: hidden;
+}
